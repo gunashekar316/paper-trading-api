@@ -18,8 +18,7 @@ A RESTful backend service built with FastAPI that allows users to simulate stock
 * **Deployment:** Render
 
 ## 🔗 Live Demo
-*Base URL:* `https://YOUR-RENDER-URL.onrender.com`
-*(Note: Replace the link above with your actual Render URL once it is live! Append `/docs` to the URL to interact with the Swagger UI).*
+*Base URL:* `https://paper-trading-api-1.onrender.com/docs`
 
 ## 📖 API Endpoints
 
@@ -34,13 +33,10 @@ A RESTful backend service built with FastAPI that allows users to simulate stock
 * `GET /portfolio` - View current cash balance and all active stock holdings.
 
 ## 💻 Local Setup
-1. Clone the repository:
+1. `Clone the repository`:
    git clone https://github.com/gunashekar316/paper-trading-api.git
-2. Install the required dependencies:
+2. `Install the required dependencies`:
    pip install -r requirements.txt
-3. Run the development server:
+3. `Run the development server`:
    python -m uvicorn main:app --reload
-4. Access the interactive documentation at http://localhost:8000/docs.
-5. **Commit the file:** Scroll to the bottom of the GitHub page and click the green **"Commit changes"** button.
-   By the time you finish doing this, Render should be just about done putting your API on the internet. Let me know when you see that green **"Live"** status on Render!
-   
+4. `Access the interactive documentation`: http://localhost:8000/docs.
